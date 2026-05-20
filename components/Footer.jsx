@@ -30,16 +30,6 @@ function Footer() {
 
                     <div className="flex flex-col gap-2 lg:gap-4 items-center justify-center">
                         <div className="flex justify-center items-center relative gap-5">
-                            <a href="https://www.facebook.com/ubabbiopalermo" target="_blank">
-                                <Image
-                                    src={"/facebook.png"}
-                                    width={50}
-                                    height={50}
-                                    alt="facebook"
-                                    className="transition-opacity duration-300 hover:opacity-70 active:opacity-40 cursor-pointer"
-                                />
-                            </a>
-                            
                             <a href="https://www.instagram.com/ubabbio/" target="_blank">
                                 <Image
                                     src={"/instagram_icon.png"}
@@ -50,12 +40,12 @@ function Footer() {
                                 />
                             </a>
                             
-                            <a href="">
+                            <a href={"https://wa.me/393665029938"}>
                                 <Image
-                                    src={"/tiktok.png"}
+                                    src={"/whatsapp.png"}
                                     width={45}
                                     height={45}
-                                    alt="tiktok"
+                                    alt="whatsapp"
                                     className="transition-opacity duration-300 hover:opacity-70 active:opacity-40 cursor-pointer"
                                 />
                             </a>
