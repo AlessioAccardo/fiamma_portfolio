@@ -8,8 +8,8 @@ const robotoSlab = Roboto_Slab({
 })
 
 export const metadata = {
-  title: "PASTAFIAMMA",
-  description: "Migliore Ristorante a Palermo",
+  title: "FIAMMA",
+  description: "Private Chef",
   icons: {
     icon: "/logo.svg"
   }
