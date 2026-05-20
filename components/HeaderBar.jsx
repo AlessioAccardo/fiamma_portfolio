@@ -52,8 +52,8 @@ function HeaderBar() {
 
                 <Link href="/#chi" className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>who I am</Link>
                 <Link href={"/offer#offer"} className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>what i offer</Link>
-                <Link href="https://wa.me/393665029938" className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>whatsapp</Link>
-                <Link href={`tel:${phoneNumber}`} className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>Call me</Link>
+                <Link href="https://wa.me/393665029938" target="_blank" className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>whatsapp</Link>
+                <Link href={`tel:${phoneNumber}`} target="_blank" className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border text-white border-transparent rounded-2xl ${!isScrolled ? "hover:opacity-70" : "hover:bg-[#da291c] hover:opacity-80"} transition-all duration-300 active:opacity-40 uppercase`}>Call me</Link>
                 <Link href={"/menu"} className={`hidden lg:flex justify-center items-center text-center text-xl px-5 py-2 border ${isScrolled ? "bg-white border-[#da291c]  hover:bg-[#da291c] text-[#da291c] hover:text-[#fff] " : "border-transparent text-white hover:bg-white hover:text-[#da291c]"} rounded-2xl transition-all duration-300 active:opacity-80 uppercase`}>gallery</Link> 
 
                 <button className="lg:hidden px-4" onClick={toggle}>
@@ -69,7 +69,7 @@ function HeaderBar() {
 
                 <nav className="flex flex-col items-end-safe gap-6 px-10">
                     <Link onClick={toggle} href="/offer#offer" className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">What I Offer</Link>
-                    <Link href="https://wa.me/393665029938" className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">WhatsApp</Link>
+                    <Link href="https://wa.me/393665029938" target="_blank" className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">WhatsApp</Link>
                     <Link href={`tel:${phoneNumber}`} className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">Call me</Link>
                     <Link href={"/menu"} onClick={toggle} className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">Gallery</Link>
                     <Link onClick={toggle} href="/#chi" className="transition-opacity duration-100 ease-in-out active:opacity-20 text-2xl uppercase">Who I Am</Link>
