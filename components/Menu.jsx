@@ -58,7 +58,7 @@ function Menu() {
 
                 <div className="w-full max-w-full flex flex-col justify-center items-center text-center absolute z-2 text-6xl gap-5">
                     <p className={`text-[#ffc72c] ${bebasNeue.className} text-9xl`}>FIAMMA</p>
-                    <p className={`${permanentMarker.className} text-7xl`}>la mia gallery</p>
+                    <p className={`${permanentMarker.className} text-7xl`}>GALLERY</p>
                 </div>
             </div>
             <div className="flex flex-col relative w-full overflow-hidden min-h-screen justify-center items-center lg:hidden shadow-2xl">
@@ -70,7 +70,7 @@ function Menu() {
                 />
                 <div className="w-full max-w-full flex flex-col justify-center items-center text-center text-white absolute z-2 px-4">
                     <p className={`text-[#ffc72c] ${bebasNeue.className} text-7xl md:text-9xl`}>FIAMMA</p>
-                    <p className={`${permanentMarker.className} text-4xl md:text-6xl uppercase`}>la mia gallery</p>
+                    <p className={`${permanentMarker.className} text-4xl md:text-6xl uppercase`}>GALLERY</p>
                 </div>                 
             </div>
             <Gallery />

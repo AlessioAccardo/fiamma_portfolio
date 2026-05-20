@@ -50,7 +50,7 @@ function Hero() {
             
                 <div className="w-full max-w-full flex flex-col justify-center items-center text-center absolute z-2 text-6xl ">
                     <p className={`text-[#ffc72c] ${bebasNeue.className} text-9xl uppercase`}>FIAMMA</p>
-                    <p className={`${permanentMarker.className} text-7xl px-6 uppercase`}>CHEF PRIVATO</p>
+                    <p className={`${permanentMarker.className} text-7xl px-6 uppercase`}>PRIVATE CHEF</p>
                 </div>                
             </div>
 
@@ -63,7 +63,7 @@ function Hero() {
                 />
                 <div className="w-full max-w-full flex flex-col justify-center items-center text-center absolute z-2 text-4xl px-4">
                     <p className={`text-[#ffc72c] ${bebasNeue.className} text-7xl md:text-9xl uppercase`}>FIAMMA</p>
-                    <p className={`${permanentMarker.className} text-4xl md:text-6x uppercase`}>CHEF PRIVATO</p>
+                    <p className={`${permanentMarker.className} text-4xl md:text-6x uppercase`}>PRIVATE CHEF</p>
                 </div>                 
             </div>
             
