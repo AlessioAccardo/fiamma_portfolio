@@ -43,8 +43,8 @@ function Footer() {
                             <a href={"https://wa.me/393665029938"}>
                                 <Image
                                     src={"/whatsapp2.webp"}
-                                    width={45}
-                                    height={45}
+                                    width={55}
+                                    height={55}
                                     alt="whatsapp"
                                     className="transition-opacity duration-300 hover:opacity-70 active:opacity-40 cursor-pointer"
                                 />
