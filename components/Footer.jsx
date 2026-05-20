@@ -40,7 +40,7 @@ function Footer() {
                                 />
                             </a>
                             
-                            <a href="https://wa.me/393665029938">
+                            <a href="https://wa.me/393665029938" target="_blank">
                                 <Image
                                     src={"/whatsapp2.webp"}
                                     width={70}
