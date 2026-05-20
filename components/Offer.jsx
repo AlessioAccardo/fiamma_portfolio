@@ -31,7 +31,7 @@ function Offer() {
                             </div>                
                         </div>
             
-                        <div className="flex flex-col relative w-full overflow-hidden min-h-screen justify-center items-center lg:hidden shadow-2xl">
+                        <div id="offer" className="flex flex-col relative w-full overflow-hidden min-h-screen justify-center items-center lg:hidden shadow-2xl">
                             <Image
                                 src={"/foto_fiamma.jpg"}
                                 fill={true}
@@ -87,7 +87,7 @@ function Offer() {
                     </div>
                     <p className="text-xl">Price: €140 p.p.</p>
                 </div>
-                <a href={`tel:${phoneNumber}`} className="uppercase text-4xl w-full max-w-[90%] text-center p-3 bg-[#da291c] text-white rounded-2xl">contact me 🥂</a>
+                <a href="https://wa.me/393665029938" className="uppercase text-4xl w-full max-w-[90%] text-center p-3 bg-[#da291c] text-white rounded-2xl">contact me 🥂</a>
             </div>
         </div>
     );
