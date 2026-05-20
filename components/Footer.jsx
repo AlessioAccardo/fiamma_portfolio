@@ -42,7 +42,7 @@ function Footer() {
                             
                             <a href={"https://wa.me/393665029938"}>
                                 <Image
-                                    src={"/whatsapp.png"}
+                                    src={"/whatsapp2.png"}
                                     width={45}
                                     height={45}
                                     alt="whatsapp"
